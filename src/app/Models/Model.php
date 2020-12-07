@@ -2,7 +2,7 @@
 
 namespace BSLTasks\App\Models;
 
-use BSLCore\Models\Model as DefaultModel;
+use BSLCore\App\Models\Model as DefaultModel;
 
 class Model extends DefaultModel
 {
