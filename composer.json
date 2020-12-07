@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BSLTasks\\": "src/"
+            "BSLTasks\\App\\": "src/app/"
         }
     },
     "repositories": [
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BSLCore\\App\\Providers\\AppServiceProvider"
+                "BSLTasks\\App\\Providers\\AppServiceProvider"
             ]
         }
     },
