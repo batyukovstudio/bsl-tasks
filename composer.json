@@ -1,0 +1,34 @@
+{
+    "name": "batyukovstudio/bsl-tasks",
+    "authors": [
+        {
+            "name": "example",
+            "email": "example@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^7.0|^8.0|^9.0|^10.0",
+        "batyukovstudio/bsl-core": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "BSLTasks\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../bsl-core"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BSLCore\\App\\Providers\\AppServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
